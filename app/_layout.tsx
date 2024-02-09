@@ -1,13 +1,9 @@
-import FontAwesome from '@expo/vector-icons/FontAwesome';
-import {
-  DarkTheme,
-  DefaultTheme,
-  ThemeProvider,
-} from '@react-navigation/native';
-import { useFonts } from 'expo-font';
+import { useEffect } from 'react';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
-import { useEffect } from 'react';
+import { TamaguiProvider } from 'tamagui';
+import { useFonts } from 'expo-font';
+import { tamaguiConfig } from '@/tamagui.config';
 
 import { useColorScheme } from '@/components/useColorScheme';
 
@@ -18,7 +14,7 @@ export {
 
 export const unstable_settings = {
   // Ensure that reloading on `/modal` keeps a back button present.
-  initialRouteName: '(tabs)',
+  initialRouteName: 'signin',
 };
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
@@ -53,8 +49,10 @@ function RootLayoutNav() {
   const colorScheme = useColorScheme();
 
   return (
-    <Stack>
-      <Stack.Screen name='(tabs)' options={{ headerShown: false }} />
-    </Stack>
+    <TamaguiProvider config={tamaguiConfig}>
+      <Stack>
+        <Stack.Screen name='index' options={{ headerShown: false }} />
+      </Stack>
+    </TamaguiProvider>
   );
 }
