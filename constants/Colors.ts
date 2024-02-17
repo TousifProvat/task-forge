@@ -11,6 +11,11 @@ export default {
   action: '#007BFF',
   icon: '#333333',
   white: '#ffff',
+  error: '#ef4444',
+  lightRed: '#fca5a5',
+  black: '#00000',
+  success: '#16a34a',
+  lightGreen: '#4ade80',
   // light: {
   // },
   // dark: {

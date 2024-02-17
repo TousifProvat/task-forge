@@ -2,10 +2,13 @@ import { useEffect } from 'react';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { TamaguiProvider } from 'tamagui';
+import { ToastProvider, ToastViewport } from '@tamagui/toast';
 import { useFonts } from 'expo-font';
-import { tamaguiConfig } from '@/tamagui.config';
 
+import { tamaguiConfig } from '@/tamagui.config';
 import { useColorScheme } from '@/components/useColorScheme';
+import Toast from '@/components/Toast';
+import SafeToastViewport from '@/components/SafeToastViewPort';
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -50,9 +53,13 @@ function RootLayoutNav() {
 
   return (
     <TamaguiProvider config={tamaguiConfig}>
-      <Stack>
-        <Stack.Screen name='index' options={{ headerShown: false }} />
-      </Stack>
+      <ToastProvider>
+        <Toast />
+        <SafeToastViewport />
+        <Stack>
+          <Stack.Screen name='index' options={{ headerShown: false }} />
+        </Stack>
+      </ToastProvider>
     </TamaguiProvider>
   );
 }

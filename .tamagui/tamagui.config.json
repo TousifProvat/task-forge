@@ -91,7 +91,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -267,7 +266,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -432,7 +430,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -587,7 +584,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -807,7 +803,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -1006,7 +1001,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -1177,7 +1171,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -1255,6 +1248,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "horizontal": {
                 "true": {
                   "flexDirection": "row",
@@ -1272,7 +1266,8 @@
           "staticConfig": {
             "isInput": true,
             "acceptTokens": {
-              "placeholderTextColor": "color"
+              "placeholderTextColor": "color",
+              "selectionColor": "color"
             },
             "variants": {
               "unstyled": {
@@ -1323,7 +1318,8 @@
           "staticConfig": {
             "isInput": true,
             "acceptTokens": {
-              "placeholderTextColor": "color"
+              "placeholderTextColor": "color",
+              "selectionColor": "color"
             },
             "variants": {
               "unstyled": {
@@ -1457,7 +1453,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -1639,7 +1634,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -1716,7 +1710,8 @@
               "elevation": {
                 "...size": "Function",
                 ":number": "Function"
-              }
+              },
+              "inset": "Function"
             },
             "isReactNative": false,
             "isText": false,
@@ -1813,7 +1808,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -1995,7 +1989,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -2081,7 +2074,8 @@
           "staticConfig": {
             "isInput": true,
             "acceptTokens": {
-              "placeholderTextColor": "color"
+              "placeholderTextColor": "color",
+              "selectionColor": "color"
             },
             "variants": {
               "unstyled": {
@@ -2135,7 +2129,8 @@
           "staticConfig": {
             "isInput": true,
             "acceptTokens": {
-              "placeholderTextColor": "color"
+              "placeholderTextColor": "color",
+              "selectionColor": "color"
             },
             "variants": {
               "unstyled": {
@@ -2271,7 +2266,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -2428,7 +2422,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -2506,6 +2499,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -2717,7 +2711,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -2794,7 +2787,8 @@
               "elevation": {
                 "...size": "Function",
                 ":number": "Function"
-              }
+              },
+              "inset": "Function"
             },
             "componentName": "AvatarFallback",
             "isReactNative": false,
@@ -2897,7 +2891,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -2974,7 +2967,8 @@
               "elevation": {
                 "...size": "Function",
                 ":number": "Function"
-              }
+              },
+              "inset": "Function"
             },
             "componentName": "AvatarFallback",
             "isReactNative": false,
@@ -3076,7 +3070,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -3154,6 +3147,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -3349,7 +3343,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -3427,6 +3420,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -3671,7 +3665,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -3749,6 +3742,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -4024,7 +4018,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -4200,7 +4193,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -4278,6 +4270,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -4481,7 +4474,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -4559,6 +4551,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -4759,7 +4752,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -4837,6 +4829,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -5041,7 +5034,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -5119,6 +5111,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -5322,7 +5315,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -5400,6 +5392,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -5604,7 +5597,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -5682,6 +5674,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -5919,7 +5912,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -5997,6 +5989,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -6232,7 +6225,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -6310,6 +6302,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -6505,7 +6498,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -6670,7 +6662,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -6748,6 +6739,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -6989,7 +6981,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -7162,7 +7153,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -7240,6 +7230,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -7449,7 +7440,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -7527,6 +7517,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -7734,7 +7725,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -7812,6 +7802,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "unstyled": {
                 "false": {
                   "alignItems": "center",
@@ -7956,7 +7947,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -8126,7 +8116,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -8288,7 +8277,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -8450,7 +8438,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -8608,7 +8595,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -8771,7 +8757,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -8849,6 +8834,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -9046,7 +9032,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -9207,7 +9192,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -9368,7 +9352,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -9530,7 +9513,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -9691,7 +9673,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -9852,7 +9833,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -10014,7 +9994,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -10228,7 +10207,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -10445,7 +10423,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -10620,7 +10597,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -10698,6 +10674,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -10922,7 +10899,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -11000,6 +10976,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -11259,7 +11236,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -11467,7 +11443,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -11675,7 +11650,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -11846,7 +11820,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -11924,6 +11897,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "unstyled": {
                 "false": {
                   "borderColor": "$borderColor",
@@ -12034,7 +12008,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -12112,6 +12085,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -12315,7 +12289,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -12392,7 +12365,8 @@
               "elevation": {
                 "...size": "Function",
                 ":number": "Function"
-              }
+              },
+              "inset": "Function"
             },
             "isReactNative": false,
             "isText": false,
@@ -12492,7 +12466,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -12570,6 +12543,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "unstyled": {
                 "false": {
                   "borderColor": "$borderColor",
@@ -12680,7 +12654,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -12758,6 +12731,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -12960,7 +12934,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -13038,6 +13011,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -13241,7 +13215,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -13319,6 +13292,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -13520,7 +13494,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -13598,6 +13571,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -13798,7 +13772,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -13876,6 +13849,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -14073,7 +14047,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -14151,6 +14124,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -14374,7 +14348,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -14451,7 +14424,8 @@
               "elevation": {
                 "...size": "Function",
                 ":number": "Function"
-              }
+              },
+              "inset": "Function"
             },
             "componentName": "SelectGroup",
             "isReactNative": false,
@@ -14551,7 +14525,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -14628,7 +14601,8 @@
               "elevation": {
                 "...size": "Function",
                 ":number": "Function"
-              }
+              },
+              "inset": "Function"
             },
             "componentName": "SelectIcon",
             "isReactNative": false,
@@ -14734,7 +14708,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -14915,7 +14888,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -15091,7 +15063,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -15169,6 +15140,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -15363,7 +15335,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -15441,6 +15412,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -15633,7 +15605,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -15711,6 +15682,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "unstyled": {
                 "false": {
                   "flex": 1,
@@ -15823,7 +15795,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -15901,6 +15872,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "open": {
                 "true": {
                   "pointerEvents": "auto"
@@ -16025,7 +15997,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -16103,6 +16074,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -16313,7 +16285,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -16391,6 +16362,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "open": {
                 "true": {
                   "pointerEvents": "auto"
@@ -16515,7 +16487,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -16593,6 +16564,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -16803,7 +16775,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -16881,6 +16852,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "orientation": {
                 "horizontal": {},
                 "vertical": {}
@@ -16983,7 +16955,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -17061,6 +17032,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -17267,7 +17239,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -17345,6 +17316,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "orientation": {
                 "horizontal": {},
                 "vertical": {}
@@ -17449,7 +17421,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -17527,6 +17498,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "orientation": {
                 "horizontal": {},
                 "vertical": {}
@@ -17642,7 +17614,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -17719,7 +17690,8 @@
               "elevation": {
                 "...size": "Function",
                 ":number": "Function"
-              }
+              },
+              "inset": "Function"
             },
             "isReactNative": false,
             "isText": false,
@@ -17816,7 +17788,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -17893,7 +17864,8 @@
               "elevation": {
                 "...size": "Function",
                 ":number": "Function"
-              }
+              },
+              "inset": "Function"
             },
             "isReactNative": false,
             "isText": false,
@@ -17991,7 +17963,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -18068,7 +18039,8 @@
               "elevation": {
                 "...size": "Function",
                 ":number": "Function"
-              }
+              },
+              "inset": "Function"
             },
             "isReactNative": false,
             "isText": false,
@@ -18167,7 +18139,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -18245,6 +18216,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "unstyled": {
                 "true": {
                   "hoverTheme": false,
@@ -18389,7 +18361,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -18467,6 +18438,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -18655,7 +18627,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -18733,6 +18704,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "unstyled": {
                 "false": {
                   "borderRadius": 1000,
@@ -18857,7 +18829,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -18935,6 +18906,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "unstyled": {
                 "false": {
                   "borderRadius": 1000,
@@ -19057,7 +19029,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -19135,6 +19106,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "backgrounded": {
                 "true": {
                   "backgroundColor": "$background"
@@ -19340,7 +19312,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -19418,6 +19389,7 @@
                 "...size": "Function",
                 ":number": "Function"
               },
+              "inset": "Function",
               "unstyled": {
                 "true": {
                   "hoverTheme": false,
@@ -19595,7 +19567,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -19803,7 +19774,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -20010,7 +19980,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -20217,7 +20186,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -20424,7 +20392,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -20631,7 +20598,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -20838,7 +20804,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -21045,7 +21010,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -21252,7 +21216,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
@@ -21429,7 +21392,6 @@
               "borderStartColor": true,
               "shadowColor": true,
               "color": true,
-              "placeholderTextColor": true,
               "textDecorationColor": true,
               "textShadowColor": true,
               "borderRadius": true,
